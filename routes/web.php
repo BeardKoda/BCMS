@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     // return view('welcome');
+//     return redirect('/home.html');
+// });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'Front\HomeController@home')->name('home');
+Route::get('/about.html', 'Front\HomeController@about')->name('about');
+Route::get('/services.html', 'Front\HomeController@services')->name('services');
+Route::get('/academy.html', 'Front\HomeController@academy')->name('academy');
+Route::get('/studio.html', 'Front\HomeController@studio')->name('studio');
+Route::get('/contact.html', 'Front\HomeController@contact')->name('contact');
