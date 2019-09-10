@@ -40,7 +40,7 @@
                         </div>
                         <h5 class="f_600 f_p t_color3">Project Strategy</h5>
                         <p>Technical strategy for best-in-class execution and product success in the marketplace.</p>
-                        <p class="mb-0"><a href="#">Read More</a><i class="ti-arrow-right"></i></p>
+                        <p class="mb-0"><a href="{{route('services')}}">Read More</a><i class="ti-arrow-right"></i></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -51,7 +51,7 @@
                         </div>
                         <h5 class="f_600 f_p t_color3">BlockChain Development</h5>
                         <p>Products built to extract maximum value, driven by the blockchain.</p>
-                        <p class="mb-0"><a href="#">Read More</a><i class="ti-arrow-right"></i></p>
+                        <p class="mb-0"><a href="{{route('services')}}">Read More</a><i class="ti-arrow-right"></i></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -62,7 +62,7 @@
                         </div>
                         <h5 class="f_600 f_p t_color3">Application Development</h5>
                         <p>Enterprise-grade performance applications built for web and mobile consumption.</p>
-                        <p class="mb-0"><a href="#">Read More</a><i class="ti-arrow-right"></i></p>
+                        <p class="mb-0"><a href="{{route('services')}}">Read More</a><i class="ti-arrow-right"></i></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -73,7 +73,7 @@
                         </div>
                         <h5 class="f_600 f_p t_color3">AI & Machine Learning</h5>
                         <p>Build powerful applications that generate meaningful, actionable insights from your business data through machine learning and artificial intelligence.</p>
-                        <p class="mb-0"><a href="#">Read More</a><i class="ti-arrow-right"></i></p>
+                        <p class="mb-0"><a href="{{route('services')}}">Read More</a><i class="ti-arrow-right"></i></p>
                     </div>
                 </div>
             </div>
