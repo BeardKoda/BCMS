@@ -14,7 +14,7 @@
 
                         </p>
                         <div class="action_btn d-flex align-items-center mt_60">
-                            <a href="#" class="btn_hover agency_banner_btn wow fadeInLeft" data-wow-delay="0.5s">Get in Touch</a>
+                            <a href="{{route('contact')}}" class="btn_hover agency_banner_btn wow fadeInLeft" data-wow-delay="0.5s">Get in Touch</a>
                         </div>
                     </div>
                 </div>
@@ -85,36 +85,12 @@
             <div class="agency_testimonial_info">
                 <div class="testimonial_slider owl-carousel">
                     <div class="testimonial_item text-center left">
-                        <div class="author_img"><img src="front/img/home4/author_img.png" alt=""></div>
+                        <div class="author_img"><img src="front/img/test/chispare.jpg" alt=""></div>
                         <div class="author_description">
-                            <h4 class="f_500 t_color3 f_size_18">Lurch Schpellchek</h4>
-                            <h6>UI/UX designer</h6>
+                            <h4 class="f_500 t_color3 f_size_18">Chinomso Johnson</h4>
+                            <h6>CEO, Chispareparts</h6>
                         </div>
-                        <p>What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it's all gone to pot buggered.</p>
-                    </div>
-                    <div class="testimonial_item text-center center">
-                        <div class="author_img"><img src="front/img/home4/author_img.png" alt=""></div>
-                        <div class="author_description">
-                            <h4 class="f_500 t_color3 f_size_18">Lurch Schpellchek</h4>
-                            <h6>UI/UX designer</h6>
-                        </div>
-                        <p>What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it's all gone to pot buggered.</p>
-                    </div>
-                    <div class="testimonial_item text-center right">
-                        <div class="author_img"><img src="front/img/home4/author_img.png" alt=""></div>
-                        <div class="author_description">
-                            <h4 class="f_500 t_color3 f_size_18">Lurch Schpellchek</h4>
-                            <h6>UI/UX designer</h6>
-                        </div>
-                        <p>What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it's all gone to pot buggered.</p>
-                    </div>
-                    <div class="testimonial_item text-center">
-                        <div class="author_img"><img src="front/img/home4/author_img.png" alt=""></div>
-                        <div class="author_description">
-                            <h4 class="f_500 t_color3 f_size_18">Lurch Schpellchek</h4>
-                            <h6>UI/UX designer</h6>
-                        </div>
-                        <p>What a load of rubbish bits and bobs pear shaped owt to do with me bubble and squeak jolly good morish tinkety tonk old fruit, car boot my good sir buggered plastered cheeky David, haggle young delinquent say so I said bite your arm off easy peasy. Skive off it's all gone to pot buggered.</p>
+                        <p>Brindocorp conveniently set up an E-commerce site for me which has been quite useful in getting my business known online. Their after support customer service has also been good. I would recommend them to anyone who wishes to build an E-commerce website or any type of website in particular. They work within your budget to give you the best.</p>
                     </div>
                 </div>
             </div>

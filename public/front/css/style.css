@@ -9063,8 +9063,8 @@ button:focus {
 }
 
 .agency_testimonial_info .testimonial_slider .testimonial_item .author_img img {
-  max-width: 100%;
-  width: auto;
+  max-width: 100px;
+  width: 100px;
   display: inline-block;
   border-radius: 50%;
 }

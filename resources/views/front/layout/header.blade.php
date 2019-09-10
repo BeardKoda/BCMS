@@ -49,7 +49,7 @@
                             </a>
                         </li>
                     </ul>
-                    <a class="btn_get btn_hover menu_cus" href="#get-app">Join Us</a>
+                    <a class="btn_get btn_hover menu_cus" href="{{route('contact')}}">Join Us</a>
                 </div>
             </div>
         </nav>

@@ -16,18 +16,18 @@
             <div class="col-lg-3 pr-0">
                 <div class="contact_info_item">
                     <h6 class="f_p f_size_20 t_color3 f_500 mb_20">Office Address</h6>
-                    <p class="f_400 f_size_15">Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia</p>
+                    <p class="f_400 f_size_15">39, St. Finbarr's Road Akoka Lagos</p>
                 </div>
                 <div class="contact_info_item">
                     <h6 class="f_p f_size_20 t_color3 f_500 mb_20">Contact Info</h6>
-                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Phone:</span> <a href="tel:3024437488">(+096) 302 443 7488</a></p>
-                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Fax:</span> <a href="tel:3024437488">(+096) 204 353 6684</a></p>
-                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Email:</span> <a href="mailto:saasland@gmail.com">saasland@gmail.com</a></p>
+                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Phone:</span> <a href="tel:+2348183000333">(+234) 818 300 0333</a></p>
+                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Phone:</span> <a href="tel:+2349032209462">(+234) 903 220 9462</a></p>
+                    <p class="f_400 f_size_15"><span class="f_400 t_color3">Email:</span> <a href="mailto:info@brindocorp.co">info@brindocorp.co</a></p>
                 </div>
             </div>
             <div class="col-lg-8 offset-lg-1">
                 <div class="mapbox">
-                    <div id="mapBox" class="row m0" data-lat="40.701083" data-lon="-74.1522848" data-zoom="10" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-marker="img/map.png" data-mlat="40.701083" data-mlon="-74.1522848">
+                    <div id="mapBox" class="row m0" data-lat="6.526693" data-lon="3.386242" data-zoom="10" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-marker="img/map.png" data-mlat="40.701083" data-mlon="-74.1522848">
                     </div>
                 </div>
             </div>
