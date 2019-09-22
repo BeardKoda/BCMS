@@ -13,31 +13,36 @@ class Authenticate extends Middleware
      * @param  \Illuminate\Http\Request  $request
      * @return string
      */
-    public function handle($request, Closure $next, ...$guards)
-    {
-        if ($this->authenticate($request, $guards) === 'authentication_error') {
-            return response()->json(['error'=>'Unauthorized']);
-        }
-        return $next($request);
-    }
+    // public function handle($request, Closure $next, ...$guards)
+    // {
+    //     if ($this->authenticate($request, $guards) === 'authentication_error') {
+    //         if ($request->expectsJson()) {
+    //             return response()->json(['error'=>'Unauthorized']);
+    //         }
+    //         return $this->redirectTo($request);
+    //     }
+    //     return $next($request);
+    // }
     
     protected function redirectTo($request)
     {
         if (! $request->expectsJson()) {
-            return route('login');
+            if(\Request::is('admin\*'));
+                return route('admin.login');
+            return route('home');
         }
     }
     
-    protected function authenticate($request, array $guards)
-    {
-        if (empty($guards)) {
-            $guards = [null];
-        }
-        foreach ($guards as $guard) {
-            if ($this->auth->guard($guard)->check()) {
-                return $this->auth->shouldUse($guard);
-            }
-        }
-        return 'authentication_error';
-    }
+    // protected function authenticate($request, array $guards)
+    // {
+    //     if (empty($guards)) {
+    //         $guards = [null];
+    //     }
+    //     foreach ($guards as $guard) {
+    //         if ($this->auth->guard($guard)->check()) {
+    //             return $this->auth->shouldUse($guard);
+    //         }
+    //     }
+    //     return 'authentication_error';
+    // }
 }
